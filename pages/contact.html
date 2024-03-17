@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wawes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./node_modules/tailwindcss/base.cssclea">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container  mx-auto">
+
+            <nav class="flex h-[90px] items-center justify-between">
+                <a href="@">
+                    <img src="../image/logo.svg" alt="site logo">
+                </a>
+
+                <ul class="flex h-full gap-14 items-center ">
+                    <li>
+                        <a href="../index.html" class="hover:text-violet-500 duration-150">Home</a>
+                    </li>
+                    <li>
+                        <a href="./services.html" class="hover:text-violet-500 duration-150">Services</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html" class="hover:text-violet-500 duration-150">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-violet-500 duration-150">Blog</a>
+                    </li>
+                </ul>
+
+                <button
+                    class="bg-violet-500 text-white px-6 py-3 gapx-2 duration-200 hover:bg-white hover:text-violet-500 border-2 border-transparent hover:border-violet-500">
+                    <span>Contact us</span> <i class="bi bi-arrow-right"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="form" class="pt-[88px]">
+            <div class="container mx-auto">
+                <h1 class="font-[Montserrat] pb-10 text-[62px] font-medium">Interested? <br>
+                    Let’s talk!</h1>
+
+                <p class="font-medium text-[24px] text-left">Just fill this form and we will contact you promptly to
+                    discuss <br> your project. Hate forms? Drop us a
+                    message at <br> <span class="text-violet-500">info@waves.com</span> or <span
+                        class="text-violet-500">hello@waves.com</span></p>
+
+                <div class="forms pt-10 flex flex-col gap-y-8">
+                    <input type="text" placeholder="Your Name"
+                        class="font-[Montserrat] w-[500px] text-[24px] border-b-2">
+
+                    <input type="email" placeholder="Your Email"
+                        class="font-[Montserrat] w-[500px] text-[24px] border-b-2">
+
+                    <input type="email" placeholder="Tell Us About Your Project"
+                        class="font-[Montserrat] w-[500px] text-[24px] border-b-2">
+                </div>
+
+
+                <span class="flex pt-10 pb-24">
+                    <img src="../image/scrip.svg" alt="scrip">
+                    <p class="text-[20px] font-normal">Add Attachment</p>
+                </span>
+
+                <button
+                    class="bg-violet-500 text-white px-6 py-3 gapx-2 duration-200 hover:bg-white hover:text-violet-500 border-2 border-transparent hover:border-violet-500">
+                    <span>Send Request</span> <i class="bi bi-arrow-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <section id="card">
+            <div class="card pt-[88px] relative px-[200px] top-[80px] left-[220px]">
+                <img src="../image/card.png" alt="card">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#0F0F0F] pb-10">
+
+        <div class="container mx-auto px-[50px]">
+
+            <div class="flex justify-between border-b border-violet-500 p-[150px]">
+
+                <img src="../image/logo-bigger.svg" alt="logo">
+
+                <ul class="flex gap-14">
+                    <li>
+                        <a href="#"
+                            class="font-[Montserrat] text-[24px] font-medium text-white hover:text-violet-500 duration-150">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="font-[Montserrat] text-[24px] font-medium text-white hover:text-violet-500 duration-150">About
+                            us</a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="font-[Montserrat] text-[24px] font-medium text-white hover:text-violet-500 duration-150">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="font-[Montserrat] text-[24px] font-medium text-white hover:text-violet-500 duration-150">Services</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
